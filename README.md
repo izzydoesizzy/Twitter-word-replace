@@ -2,10 +2,12 @@
 A Chrome extension for replacing words on Twitter exclusively.
 
 ### Files
-* [manifest.json](manifest.json) is necessary for Chrome and tells the extension to use Twitter exclusively, so the words won't be replaced on other websites.
+* [manifest.json](manifest.json) is necessary for Chrome and tells the extension to use Twitter exclusively, so the words won't be replaced on other websites. Edit this file to add your extension's title, description, and version number etc. Don't rename this file.
 * [replaceWord.js](replaceWord.js) is a script that takes the content from tweets and replaces the words if it finds them.
 
 ### Customise
+Edit [manifest.json](manifest.json) to give your extension a title and description.
+
 To choose the words to be replaced, edit line 6 in [replaceWord.js](replaceWord.js):
 
 ```javascript
