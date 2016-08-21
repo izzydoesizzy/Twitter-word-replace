@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "YOUR TITLE",
+  "version": "0.1",
+  "description": "This is a Chrome extension that replaces SOME_WORD with SOME_OTHER_WORD on Twitter exclusively.",
+
+  "permissions": ["https://twitter.com/*"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["replaceWord.js"]
+    }
+  ]
+}
