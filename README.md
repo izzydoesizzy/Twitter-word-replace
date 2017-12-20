@@ -30,5 +30,5 @@ This Chome extension requires the manifest.json and replaceWord.js files to be z
 
 A friend used this extension to replace "beauty" with "chickens". Here's a screenshot they sent me.
 
-![Screenshot](tulip1.png)
+![Screenshot](tulip3.png)
 ![Screenshot](tulip2.png)
