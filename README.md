@@ -1,5 +1,11 @@
-# Twitter-word-replace
-A Chrome extension for replacing words on Twitter exclusively.
+# Replace Bitcoins with Tulips
+A Chrome extension that replaces all references to Bitcoin on Twitter with tulip emojis.
+
+### Credits: 
+Created by [Izzy Piyale-Sheard](http://twitter.com/izzydoesizzy)
+Project Forked and modified from [GeneticJen's Twitter-word-replace](https://github.com/GeneticJen/Twitter-word-replace)
+
+
 
 ### Files
 * [manifest.json](manifest.json) is necessary for Chrome and tells the extension to use Twitter exclusively, so the words won't be replaced on other websites. Edit this file to add your extension's title, description, and version number etc. Don't rename this file.
@@ -24,4 +30,5 @@ This Chome extension requires the manifest.json and replaceWord.js files to be z
 
 A friend used this extension to replace "beauty" with "chickens". Here's a screenshot they sent me.
 
-![Screenshot](https://cloud.githubusercontent.com/assets/19414098/17837379/b4e2c734-67a9-11e6-8168-3dccb30792fc.jpg)
+![Screenshot](tulip1.png)
+![Screenshot](tulip2.png)

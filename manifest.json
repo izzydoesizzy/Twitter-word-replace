@@ -1,8 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "YOUR TITLE",
+  "name": "Bitcoin to Tulips",
   "version": "0.1",
-  "description": "This is a Chrome extension that replaces SOME_WORD with SOME_OTHER_WORD on Twitter exclusively.",
+  "icons": { "16": "icon.png",
+           "48": "icon-48.png",
+          "128": "icon-128.png" },  
+  "description": "Replaces all references to Bitcoin on Twitter with Tulip emojis.",
 
   "permissions": ["https://twitter.com/*"],
 

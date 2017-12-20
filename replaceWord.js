@@ -3,7 +3,7 @@
     var tweetContent = document.querySelectorAll(".tweet-text");
 
     [].slice.call(tweetContent).forEach(function(el){
-      var newContent = el.innerHTML.replace(/OLD_WORD_NO_QUOTATION_MARKS/g,"NEW_WORD_IN_QUOTATION MARKS");
+      var newContent = el.innerHTML.replace(/btc|BTC|XBT|xbt|bitcoin|Btc|Bitcoin/g,'\&#127799;');
       if (newContent != el.innerHTML) {
         el.innerHTML = newContent;
       }
